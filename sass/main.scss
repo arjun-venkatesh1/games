@@ -1,0 +1,132 @@
+$ba-tab_bg:#2b3040;
+$general_font:'Lato', sans-serif;
+$general_color:#b7bacd;
+$general-title_color:#ffffff;
+//$value_color:#fedd3f;
+//$link_decoration:none;
+$general-text_size:14px;
+$title_size:32px;
+$general_weight:400;
+
+/*GENERAL*/
+
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.row:after, .container:after, .row:before, .container:before{
+	content:'';
+	display:block;
+	clear:both;
+}
+
+.generaltext{
+	font-family: $general_font;
+	font-size: $general-text_size;
+	font-weight: $general_weight;
+}
+
+ul{
+	font-size: 0px;
+	list-style:none;
+}
+
+.btn{
+	text-transform: uppercase;
+	background: #13e28d;
+	padding-left: 35px;
+	padding-right: 34px;
+	padding-top: 23px;
+	padding-bottom: 21px;
+	border:none;
+	font-family: $general_font;
+	font-size: 16px; 
+	font-weight: 700;
+}
+
+.btn__hovered:hover{
+	opacity:0.8;
+}
+
+.svg__general{
+	fill-rule:evenodd;
+}
+
+/*MAIN*/
+
+
+.main{
+	background-image: url('../img/bg.jpg');
+	width:100%;
+	max-width: 1008px;
+	height: auto;
+}
+
+.main-color{
+	background: #292d3e;
+	width:100%;
+	max-width: 1008px;
+	height: auto;
+}
+/*--ba-container--*/
+.ba-container{
+	width:100%;
+	max-width: 600px;
+	height: auto;
+	margin: 0 auto;
+}
+/*--ba-tab--*/
+.ba-tab{
+	background-color: $ba-tab_bg;
+}
+/*--tab-one--*/
+.tab-icon{
+	fill: $general_color;
+	fill-rule:evenodd;
+}
+svg #tooltip{
+	width: 100%;
+	max-width: 11.2px;
+	height: auto;
+	//height:11.2px;
+}
+
+h3{
+	font-family: $general_font;
+	color: $general_color;
+	font-size: 16px;
+	font-weight: $general_weight;
+	//line-height: 28px;
+	text-align: center;
+	text-transform: uppercase;
+}
+/*--tab-two--*/
+svg #card{
+	width: 100%;
+	max-width: 9.493px;
+	height: auto;
+	//height:10.507px;
+}
+/*--tab-three--*/
+svg #card{
+	width: 100%;
+	max-width:10px;
+	height: auto;
+	//height:10px;
+}
+
+/*ba-tab-content*/
+h2{
+	font-family: $general_font;
+	color: #ffffff;
+	font-size: $title_size;
+	font-weight: $general_weight;
+}
+
+h5{
+	font-family: $general_font;
+	color: #fdfdfd;
+	font-size: $general-text_size;
+	font-weight: $general_weight;
+}
